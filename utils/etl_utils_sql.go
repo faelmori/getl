@@ -6,17 +6,20 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+
 	"github.com/elgris/sqrl"
 	. "github.com/faelmori/getl/etypes"
+
 	//"github.com/faelmori/kbx/mods/utils"
-	"github.com/faelmori/gkbxsrv/utils"
-	"github.com/faelmori/logz"
 	"maps"
 	"os"
 	"path/filepath"
 	"reflect"
 	"strconv"
 	"strings"
+
+	"github.com/faelmori/gkbxsrv/utils"
+	"github.com/faelmori/logz"
 )
 
 func ApplyTransformations(data []Data, transformations []Transformation) ([]Data, error) {
@@ -44,7 +47,7 @@ func ApplyTransformations(data []Data, transformations []Transformation) ([]Data
 				}
 			case "base64":
 				if strValue, ok := value.(string); ok {
-					transformedRow[t.DestinationField] = base64.StdEncoding.EncodeToString([]byte(strValue))
+					transformedRow[t.DestinationField] = base64.URLEncoding.EncodeToString([]byte(strValue))
 				} else {
 					return nil, fmt.Errorf("valor não é uma string: %v", value)
 				}
