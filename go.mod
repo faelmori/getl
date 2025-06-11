@@ -1,6 +1,6 @@
 module github.com/faelmori/getl
 
-go 1.24.2
+go 1.24.4
 
 require (
 	github.com/charmbracelet/lipgloss v1.1.0
