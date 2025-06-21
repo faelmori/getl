@@ -1,4 +1,4 @@
-module github.com/faelmori/getl
+module github.com/rafa-mori/getl
 
 go 1.24.4
 
@@ -6,9 +6,9 @@ require (
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/denisenkom/go-mssqldb v0.12.3
 	github.com/elgris/sqrl v0.0.0-20210727210741-7e0198b30236
-	github.com/faelmori/gkbxsrv v1.0.7
-	github.com/faelmori/logz v1.2.0
-	github.com/faelmori/xtui v1.2.0
+	github.com/rafa-mori/gkbxsrv v1.0.7
+	github.com/rafa-mori/logz v1.3.0
+	github.com/rafa-mori/xtui v1.2.0
 	github.com/fatih/color v1.18.0
 	github.com/go-sql-driver/mysql v1.9.2
 	github.com/goccy/go-json v0.10.5

@@ -5,9 +5,9 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
-	. "github.com/faelmori/getl/etypes"
-	s "github.com/faelmori/getl/sql"
-	"github.com/faelmori/logz"
+	. "github.com/rafa-mori/getl/etypes"
+	s "github.com/rafa-mori/getl/sql"
+	"github.com/rafa-mori/logz"
 	"github.com/segmentio/kafka-go"
 	"sync"
 )

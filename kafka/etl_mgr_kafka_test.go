@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"encoding/json"
-	. "github.com/faelmori/getl/etypes"
+	. "github.com/rafa-mori/getl/etypes"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/segmentio/kafka-go"
 	"testing"

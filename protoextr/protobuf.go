@@ -1,7 +1,7 @@
 package protoextr
 
 import (
-	"github.com/faelmori/logz"
+	"github.com/rafa-mori/logz"
 	"google.golang.org/protobuf/proto"
 	"os"
 )

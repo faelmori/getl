@@ -3,14 +3,14 @@ package getl
 import (
 	"database/sql"
 	"fmt"
-	e "github.com/faelmori/getl/edi"
-	t "github.com/faelmori/getl/etypes"
-	x "github.com/faelmori/getl/genx"
-	k "github.com/faelmori/getl/kafka"
-	p "github.com/faelmori/getl/protoextr"
-	s "github.com/faelmori/getl/sql"
-	y "github.com/faelmori/getl/sync"
-	l "github.com/faelmori/logz"
+	e "github.com/rafa-mori/getl/edi"
+	t "github.com/rafa-mori/getl/etypes"
+	x "github.com/rafa-mori/getl/genx"
+	k "github.com/rafa-mori/getl/kafka"
+	p "github.com/rafa-mori/getl/protoextr"
+	s "github.com/rafa-mori/getl/sql"
+	y "github.com/rafa-mori/getl/sync"
+	l "github.com/rafa-mori/logz"
 )
 
 // Getl is the main struct for the getl package

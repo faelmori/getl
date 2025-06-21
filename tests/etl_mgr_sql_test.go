@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"github.com/faelmori/logz"
+	"github.com/rafa-mori/logz"
 	"github.com/goccy/go-json"
 	"os"
 	"testing"

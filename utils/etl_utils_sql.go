@@ -8,9 +8,9 @@ import (
 	"fmt"
 
 	"github.com/elgris/sqrl"
-	. "github.com/faelmori/getl/etypes"
+	. "github.com/rafa-mori/getl/etypes"
 
-	//"github.com/faelmori/kbx/mods/utils"
+	//"github.com/rafa-mori/kbx/mods/utils"
 	"maps"
 	"os"
 	"path/filepath"
@@ -18,8 +18,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/faelmori/gkbxsrv/utils"
-	"github.com/faelmori/logz"
+	"github.com/rafa-mori/gkbxsrv/utils"
+	"github.com/rafa-mori/logz"
 )
 
 func ApplyTransformations(data []Data, transformations []Transformation) ([]Data, error) {

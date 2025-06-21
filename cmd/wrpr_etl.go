@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/faelmori/getl/version"
+	"github.com/rafa-mori/getl/version"
 	"github.com/spf13/cobra"
 	"os"
 	"strings"

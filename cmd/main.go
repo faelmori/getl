@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	gl "github.com/faelmori/getl/logger"
+	gl "github.com/rafa-mori/getl/logger"
 )
 
 func main() {

@@ -2,7 +2,7 @@ package etypes
 
 import (
 	"fmt"
-	"github.com/faelmori/logz"
+	"github.com/rafa-mori/logz"
 )
 
 const batchSize = 1000

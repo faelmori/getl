@@ -52,7 +52,7 @@ Getl proporciona uma abordagem flexível e configurável para que qualquer usuá
 
 ```shell
 # Clone o repositório
-git clone https://github.com/faelmori/getl.git
+git clone https://github.com/rafa-mori/getl.git
 cd getl
 
 # Construa o binário usando o Makefile
@@ -160,7 +160,7 @@ getl transform -f examples/configFiles/exp_config_b.json
 ---
 
 ## **Configuração**
-O Getl utiliza arquivos de configuração em JSON ou YAML para definir parâmetros de conexão, transformações e sincronização. Esses arquivos podem ser personalizados conforme as necessidades do usuário. Para mais detalhes, consulte a [documentação de configuração](https://github.com/faelmori/getl/README.md#configuration-file).
+O Getl utiliza arquivos de configuração em JSON ou YAML para definir parâmetros de conexão, transformações e sincronização. Esses arquivos podem ser personalizados conforme as necessidades do usuário. Para mais detalhes, consulte a [documentação de configuração](https://github.com/rafa-mori/getl/README.md#configuration-file).
 
 ---
 
@@ -187,7 +187,7 @@ Este projeto é licenciado sob a [MIT License](LICENSE).
 
 ## **Contato**
 💌 **Desenvolvedor**: [Rafael Mori](mailto:faelmori@gmail.com)  
-💼 [GitHub - Rafael Mori](https://github.com/faelmori)
+💼 [GitHub - Rafael Mori](https://github.com/rafa-mori)
 
 Se você achar o projeto interessante ou quiser colaborar, entre em contato!
 💼 Estou aberto a novas oportunidades de trabalho e colaborações.

@@ -52,7 +52,7 @@ Getl is designed to be a robust solution for data integration and synchronizatio
 
 ```shell
 # Clone this repository
-git clone https://github.com/faelmori/getl.git
+git clone https://github.com/rafa-mori/getl.git
 
 # Navigate to the project directory
 cd getl
@@ -162,7 +162,7 @@ getl transform -f examples/configFiles/exp_config_b.json
 ---
 
 ## Configuration
-Getl uses JSON or YAML configuration files (supporting JSONC for comments) to set up data source and destination connections, transformation rules, and synchronization intervals. These files are central to configuring the ETL process, and detailed documentation is available in the [Configuration Documentation](https://github.com/faelmori/getl/README.md#configuration-file).
+Getl uses JSON or YAML configuration files (supporting JSONC for comments) to set up data source and destination connections, transformation rules, and synchronization intervals. These files are central to configuring the ETL process, and detailed documentation is available in the [Configuration Documentation](https://github.com/rafa-mori/getl/README.md#configuration-file).
 
 ---
 
@@ -188,7 +188,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 - **Developer:** [Rafael Mori](mailto:faelmori@gmail.com)
-- **GitHub:** [faelmori](https://github.com/faelmori)
+- **GitHub:** [faelmori](https://github.com/rafa-mori)
 
 If you find this project interesting or would like to collaborate, please reach out!
 

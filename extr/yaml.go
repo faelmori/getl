@@ -2,8 +2,8 @@ package extr
 
 import (
 	"fmt"
-	. "github.com/faelmori/getl/etypes"
-	"github.com/faelmori/logz"
+	. "github.com/rafa-mori/getl/etypes"
+	"github.com/rafa-mori/logz"
 	"gopkg.in/yaml.v2"
 	"os"
 )
