@@ -188,7 +188,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 - **Developer:** [Rafael Mori](mailto:faelmori@gmail.com)
-- **GitHub:** [faelmori](https://github.com/rafa-mori)
+- **GitHub:** [rafa-mori](https://github.com/rafa-mori)
 
 If you find this project interesting or would like to collaborate, please reach out!
 
